@@ -11,6 +11,7 @@ Implement nine-point calibration (plane coordinate transformation) only using C#
 *****
 ####  二、九点坐标情况下的最小二乘拟合
 当输入有 n 个坐标时，我们的矩阵可以写成以下形式
+
 $$
 \left[
  \begin{matrix}
@@ -37,6 +38,7 @@ $$
   \end{matrix}
   \right]
 $$
+
 $$
 \left[
  \begin{matrix}
@@ -67,6 +69,7 @@ $$
 算法中间过程：[最小二乘算法详解](https://zhuanlan.zhihu.com/p/87582571)
 
 **化简结果：**
+
 $$
  \left[
  \begin{matrix}
