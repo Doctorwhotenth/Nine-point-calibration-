@@ -172,8 +172,8 @@ public static double[,] MatMul(double[,] input1, double[,] input2)
 ```
 
 ###   最终得到相应的两个平面坐标系的转换关系
-
 **Qx、Qy为被求平面的坐标，x、y为已知平面的坐标**
+
 $$
 Qx=Qx[0] \times x+ Qx[1]\times y+Qx[2]\\
 Qy=Qy[0] \times x+ Qy[1]\times y+Qy[2]
